@@ -2,7 +2,7 @@
 
 ## 📋 Descripción del Proyecto
 
-**CoffeeShop Project** es una aplicación web moderna diseñada para gestionar las operaciones diarias de una cafetería. Construida con las últimas tecnologías del mercado, ofrece una experiencia de usuario intuitiva y responsiva para administrar inventario, pedidos e información de clientes.
+**CoffeeShop Project** es una aplicación web moderna diseñada para gestionar las operaciones diarias de una cafetería. Construida con las últimas tecnologías del mercado, ofrece una experiencia intuitiva y eficiente.
 
 ### ✨ Características Principales
 
@@ -65,20 +65,22 @@
 
 ## 📁 Estructura del Proyecto
 
+```
 CoffeeShop-Project/
 ├── src/
-│ ├── app/ # Componentes principales de la aplicación
-│ ├── imports/ # Importaciones compartidas
-│ ├── styles/ # Estilos globales (index.css)
-│ └── main.tsx # Punto de entrada React
+│   ├── app/           # Componentes principales de la aplicación
+│   ├── imports/       # Importaciones compartidas
+│   ├── styles/        # Estilos globales (index.css)
+│   └── main.tsx       # Punto de entrada React
 ├── public/
-│ ├── index.html
-│ └── favicon.ico
-├── guidelines/ # Documentación
+│   ├── index.html
+│   └── favicon.ico
+├── guidelines/        # Documentación
 ├── vite.config.ts
 ├── tailwind.config.ts
 ├── postcss.config.mjs
 └── package.json
+```
 
 ---
 
@@ -96,20 +98,28 @@ CoffeeShop-Project/
    ```bash
    git clone https://github.com/rvssian666/CoffeeShop-Project.git
    cd CoffeeShop-Project
-   npm install
    ```
 
-# o si usas pnpm
+2. **Instalar dependencias**
+   ```bash
+   npm install
+   ```
+   
+   O si usas pnpm:
+   ```bash
+   pnpm install
+   ```
 
-pnpm install
-npm run dev
+3. **Ejecutar la aplicación en desarrollo**
+   ```bash
+   npm run dev
+   ```
 
-# La aplicación se abrirá en http://localhost:5173
+   La aplicación se abrirá en `http://localhost:5173`
 
-```
+---
 
-## Contact Information
-For inquiries or feedback, please contact:
-- Name: Your Name
-- Email: yourname@example.com
-- GitHub: [rvssian666](https://github.com/rvssian666)
+## 📧 Contact Information
+
+Para consultas o comentarios, por favor contacta:
+- **GitHub:** [rvssian666](https://github.com/rvssian666)
